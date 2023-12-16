@@ -14,6 +14,6 @@ public class UserResponse {
     }
 
     public static UserResponse create(User user) {
-        return new UserResponse(user.getName(), user.getAge());
+        return new UserResponse(user.getUserName(), user.getAge());
     }
 }
